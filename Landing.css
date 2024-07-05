@@ -60,7 +60,7 @@ nav  li{
     margin-right: 20px;
     
 }
-nav li:hover{
+nav > li:hover{
     color: #05e837;
 }
 .nav-bar{
@@ -93,5 +93,6 @@ nav li .drop{
     display: none;
 }
 nav li:hover .drop{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }

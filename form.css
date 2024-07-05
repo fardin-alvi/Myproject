@@ -33,7 +33,6 @@
 .a,.b,.c,.d{
     margin: 5px 10px;
     height: 30px;
-    width: 75px;
     border-radius: 5px;
 }
 .checkbox{
@@ -47,4 +46,7 @@ button{
     width: 60px;
     margin-left: 120px;
     
+}
+input{
+    width: 300px;
 }
