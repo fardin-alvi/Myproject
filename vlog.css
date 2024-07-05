@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.conan{
+    max-width: 10vw;
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+}
+a{
+    text-decoration: none;
+}
+.foto{
+    margin-bottom: 2.8rem;
+}
+.headT{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 2rem;
+    text-align: center;
+}
+.headdis{
+    max-width: 600px;
+    text-align: center;
+    color: rgb(87, 6, 93);
+    margin: auto;
+}
+.main_con{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1 fr);
+}
+.cardc{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid black;
+    border-radius: 2.6px;
+}
+.cardi{
+    position: relative;
+    overflow: hidden;
+    height: 15rem;
+}
+.pics{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.title_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.carc:hover .cardi{
+    transform: scale(1,1);
+    transition-duration: 200ms;
+}
+.cardT{
+    font-size: 1rem;
+    font-weight: 600;
+    color: blueviolet;
+    margin-bottom: 0.3rm;
+}

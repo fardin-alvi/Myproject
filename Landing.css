@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin:1.5px;
+}
+.Banner{
+    height: 100vh;
+    width: 100%;
+    background-image:url(https://www.dztraveler.com/wp-content/uploads/2015/10/Fishing-boat-teknaf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content{
+    color: rgb(255, 51, 0);
+    text-align: j;
+    width: 80%;
+}
+h2{
+    font-size: 45px;
+    color: #d18e1bfe;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    margin: 7px, 0;
+    color:#140b01;
+}
+button{
+    background-color:#05e837;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400px;
+    color: azure;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+
+}
+.Content button:hover{
+    background-color: #068858;
+    transition-duration: 0.5s ease-in;
+}
+.button{
+    display: grid;
+    place-items: center;
+    height: 15vh;
+}
+nav  li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+nav li:hover{
+    color: #05e837;
+}
+.nav-bar{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+section{
+    margin-top: 7px;
+}
+h4{
+    margin-top: 5px;
+}
+.wn{
+    text-align: justify;
+    font-size: x-large;
+    background-image: url(https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) ;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 1.5px;
+}
+h2{
+    background-position: center;
+    top: 20px;
+}
+nav > ul{
+    display:flex;
+}
+nav li .drop{
+    display: none;
+}
+nav li:hover .drop{
+    display: block;
+}

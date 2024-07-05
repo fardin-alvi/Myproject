@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 2px;
+}
+body{
+    margin: 5vw;
+    background-image: url(../Image/saint-martin-5122126_1280.jpg) ;
+   background-repeat: none;
+   background-size: 100%;
+}
+.head{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:  10px 200px 300px 25px;
+    font-weight: 300px;
+    transform: 1s;
+}
+.to{
+    position:relative;
+    overflow: hidden;
+}
+.text{ 
+    max-width: 800px;
+    text-align:justify;
+    color: rgb(93, 6, 93);
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.main:hover .head{
+    color: hwb(309 16% 29%);
+    right: 0;
+    transform: translateY(o);
+}
+.para:hover .text{
+    transform: translateY(-100);
+}
+
